@@ -72,6 +72,13 @@ h2{
   padding-left:14px;
 }
 
+/* IMAGE GALLERY */
+.gallery img{
+  width:100%;
+  margin-bottom:20px;
+  border-radius:12px;
+}
+
 /* VIDEOS */
 .videos iframe{
   width:100%;
@@ -79,14 +86,14 @@ h2{
   margin-bottom:30px;
   border-radius:12px;
 }
-<section id="photos">
-<h2>Photography</h2>
 
-<img src="photos/wedding1.jpg" width="100%" style="margin-bottom:20px;border-radius:12px;">
-<img src="photos/wedding2.jpg" width="100%" style="margin-bottom:20px;border-radius:12px;">
-<img src="photos/commercial1.jpg" width="100%" style="margin-bottom:20px;border-radius:12px;">
-
-</section>
+/* SHORT FILMS */
+.shortfilms video{
+  width:100%;
+  height:auto;
+  margin-bottom:30px;
+  border-radius:12px;
+}
 
 /* SERVICES */
 .services p{
@@ -139,4 +146,71 @@ footer{
 <header>
   <div>
     <h1>Koti Kolagani</h1>
-    <p>Cinematographer / D
+    <p>Cinematographer / DOP</p>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a professional cinematographer (DOP) specializing in wedding films, short films, and commercial projects. I bring cinematic storytelling and emotion into every frame.</p>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <h2>Photography</h2>
+  <div class="gallery">
+    <img src="photos/wedding1.jpg" alt="Wedding Photo">
+    <img src="photos/wedding2.jpg" alt="Wedding Photo">
+    <img src="photos/commercial1.jpg" alt="Commercial Photo">
+  </div>
+
+  <h2>Videos</h2>
+  <div class="videos">
+    <iframe src="https://www.youtube.com/embed/YgZr-UNsiQE?si=CrvxoiBQcSqnRijh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/OJm8PgV_SI4?si=DPEe24XSim9fGWi4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/BWsvg9ujl04?si=C7vA_RIyoG3M6FLv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://www.youtube.com/embed/-TQoROpo8LU?si=ptUFKOQVwY5SkeXK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <h2>Short Films</h2>
+  <div class="shortfilms">
+    <video controls>
+      <source src="shortfilms/shortfilm1.mp4" type="video/mp4">
+    </video>
+    <video controls>
+      <source src="shortfilms/shortfilm2.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Services</h2>
+  <p>Wedding Cinematography, Wedding Photography, Short Films, Commercial Ads, and Artistic Visual Storytelling.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <a class="whatsapp" href="https://wa.me/919346273316" target="_blank">WhatsApp</a>
+  <a href="https://www.instagram.com/kotikolagani_naidu__/" target="_blank">Instagram</a>
+  <a href="mailto:kolagani0613@gmail.com">Email</a>
+</section>
+
+<!-- LINKEDIN POSTS -->
+<section>
+  <h2>LinkedIn Posts</h2>
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7345435632241950728?collapsed=1" height="550" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7326896533226840064?collapsed=1" height="550" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</section>
+
+<footer>
+  © 2026 Koti Kolagani
+</footer>
+
+</body>
+</html>
